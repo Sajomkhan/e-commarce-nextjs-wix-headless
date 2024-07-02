@@ -2,13 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
   --primary-color: #254d4d;
   --text-dark: #171717;
-  --text-light: #c3c4c5;
+  --text-light: #f9f9f9;
   --white: #ffffff;
   --max-width: 1200px;
   --header-font: "Merriweather", serif;
@@ -20,4 +19,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+@layer base {
+  button {
+    @apply cursor-pointer;
+  }
+
+  input {
+    @apply bg-transparent outline-none;
+  }
+
+  .btn {
+    @apply text-white bg-[#975ef3] hover:bg-[#4f288e] rounded-md shadow-md my-[10px] px-2 py-1.5 cursor-pointer;
+  }
+
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
 }
