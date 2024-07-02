@@ -11,6 +11,7 @@ const CartModal = () => {
         <div>Cart is Empty</div>
       ) : (
         <>
+          <h2>Shopping Cart</h2>
           <div className="flex flex-col gap-8">
             {/* ================ Image and Image Text ================== */}
             <div className="flex gap-4">
@@ -30,7 +31,9 @@ const CartModal = () => {
                   <div className="text-sm text-gray-500">available</div>
                   <div className="flex justify-between text-sm mt-3">
                     <span>Qty: 2</span>
-                    <button>Remove</button>
+                    <button className="text-blue-500 hover:bg-slate-100 px-2 rounded-md">
+                      Remove
+                    </button>
                   </div>
                 </div>
               </div>
@@ -52,7 +55,9 @@ const CartModal = () => {
                   <div className="text-sm text-gray-500">available</div>
                   <div className="flex justify-between text-sm mt-3">
                     <span>Qty: 2</span>
-                    <button>Remove</button>
+                    <button className="text-blue-500 hover:bg-slate-100 px-2 rounded-md">
+                      Remove
+                    </button>
                   </div>
                 </div>
               </div>
@@ -68,8 +73,12 @@ const CartModal = () => {
               Lorem ipsum dolor sit amet consectetur.
             </p>
             <div className="flex justify-between text-sm">
-              <button className="rounded-md py-2 px-4 ring-1 ring-gray-300">View Cart</button>
-              <button className="rounded-md py-2 px-4 ring-1 ring-gray-300">Checkout</button>
+              <button className="rounded-md py-2 px-4 ring-1 ring-gray-300 hover:bg-slate-100">
+                View Cart
+              </button>
+              <button className="rounded-md py-2 px-4 bg-darkish text-lightish">
+                Checkout
+              </button>
             </div>
           </div>
         </>
