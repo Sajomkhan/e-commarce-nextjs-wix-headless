@@ -6,7 +6,7 @@ import NavIcons from "./NavIcons";
 
 const Navbar = () => {
   return (
-    <div className="h-[var(--nav-height)] relative">
+    <div className="h-[var(--nav-height)] layout relative">
       {/*============== MOBILE============== */}
       <div className="h-full flex items-center justify-between md:hidden">
         <Link href="/">
