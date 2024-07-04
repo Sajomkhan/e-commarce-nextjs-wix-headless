@@ -14,10 +14,10 @@ const HomePage = () => {
         <h2 className="layout mb-12">Categories</h2>
         <CategoryList />
       </div>
-      <div className="layout my-24 px-4">
+        <div className="layout my-24">
         <h2 className="mb-12">New Products</h2>
-        <ProductList />
-      </div>
+          <ProductList />
+        </div>
     </div>
   );
 };
