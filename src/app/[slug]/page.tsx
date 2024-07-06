@@ -5,7 +5,7 @@ import ProductImages from "@/components/singleProduct/ProductImages";
 const SinglePage = () => {
   return (
     <div className="layout flex flex-col lg:flex-row gap-16">
-      {/* ==============IMAGE CONTAINER============== */}
+      {/* ============== IMAGE CONTAINER ============== */}
       <div className="w-full lg:w-1/2 lg:sticky top-[var(--nav-height)] h-max flex flex-col">
         <ProductImages />
       </div>
