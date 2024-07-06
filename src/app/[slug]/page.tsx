@@ -9,7 +9,7 @@ const SinglePage = () => {
       <div className="w-full lg:w-1/2 lg:sticky top-[var(--nav-height)] h-max flex flex-col">
         <ProductImages />
       </div>
-      {/* ==============TEXT CONTAINER============== */}
+      {/* ============== TEXT CONTAINER ============== */}
       <div className="w-full lg:w-1/2 flex flex-col gap-6">
         <h3>Product Name</h3>
         <p className="text-gray-500">
